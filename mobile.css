@@ -1,3 +1,106 @@
 @media screen and (max-width: 600px) {
-    
+
+    /* navbar section starts */
+    .navbar-section{
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    .navbar-section-menu-icon{
+        display: block;
+    }
+
+    .navbar-section-heading > h1{
+        font-size: 22px; 
+    }
+
+    .navbar-section-nav-option{
+        display: none;
+    }
+    /* navbar section ends */
+
+    /* header section starts */
+
+    .header-section{
+        flex-direction: column-reverse;
+    }
+
+    .header-section-left{
+        width: 100%;
+    }
+
+    .header-section-left-heading {
+        text-align: center;
+    }
+
+    .header-section-left-heading > h1 {
+       font-size: 22px;
+    }
+
+    .header-section-left-para{
+        text-align: center;
+    }
+
+    .header-section-left-button{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+    }
+
+    .header-section-right{
+        width: 100%;
+    }
+
+    /* header section ends */
+
+    /* logo section starts */
+    .logos{
+        flex-wrap: wrap;
+    }
+    /* logo section ends */
+
+    /* collection section starts */
+
+    .collection-section-header > h1{
+        font-size: 24px;
+    }
+
+    .collection-section-box-card-details > h2{
+        font-size: 22px;
+    }
+
+    .collection-section-box-card-details > h3{
+        font-size: 20px;
+    }
+
+    /* collection section ends */
+
+    /* see more section starts */
+    .see-more-section > a{
+        font-size: 20px;
+    }
+    /* see more section ends */
+
+    /* subscribes section starts */
+    .subscribe-section-heading > h3{
+        font-size: 18px;
+    }
+
+    .subscribe-section-form > form > input{
+        font-size: 14px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    .subscribe-section-form-button{
+        font-size: 14px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+    /* subscribe section ends */
 }
