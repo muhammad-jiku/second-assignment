@@ -1,0 +1,120 @@
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    /* navbar section starts */
+
+
+    .navbar-section-heading > h1{
+        font-size: 30px;
+    }
+
+    .navbar-section-menu-icon{
+        display: none;
+    }
+
+    .navbar-section-nav-option{
+        display: none;
+    }
+
+    /* navbar section ends */
+
+    /* header section starts */
+    .header-section{
+        flex-direction: row;
+    }
+
+    .header-section-left{
+        width: 50%;
+    }
+
+    .header-section-left-heading {
+        line-height: 40px;
+    }
+
+    .header-section-left-heading > h1{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    .header-section-right{
+        margin-top: 25px;
+        width: 50%;
+    }
+
+    .header-section-right > img{
+        height: 280px;
+    }
+
+    /* header section ends */
+
+    .logos{
+        flex-wrap: wrap;
+    }
+
+    /* logos section starts */
+
+    /* collection section starts */
+
+    .collection-section{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 600px;
+    }
+
+    .collection-section-header > h1{
+        font-size: 30px;
+    }
+
+    .collection-section-box-card{
+        padding: 5px 10px;
+    }
+
+    .collection-section-box-card-image {
+        height: 220px;
+        width: 220px;
+    }
+
+    .collection-section-box-card-image > img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .collection-section-box-card-details > h2{
+        font-size: 27px;
+    }
+
+    .collection-section-box-card-details > h3{
+        font-size: 24px;
+    }
+
+    /* collection section ends */
+
+    /* see more section starts */
+    .see-more-section > a {
+        font-size: 24px;
+    }
+    /* see more section ends */
+
+    /* subscribe section starts */
+
+    .subscribe-section-heading > h3{
+        font-size: 24px;
+    }
+
+    .subscribe-section-form > form > input{
+        width: 100%;
+    }
+
+    .subscribe-section-form-button{
+        width: 100%;
+    }
+
+    /* subscribe section ends */
+
+    /* footer section starts */
+    .footer-section-heading > h3{
+        font-size: 24px;
+    }
+    /* footer section ends */
+
+}

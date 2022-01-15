@@ -3,7 +3,7 @@
     /* navbar section starts */
     .navbar-section{
         padding: 0;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
     .navbar-section-menu-icon{
@@ -48,8 +48,16 @@
         font-size: 14px;
     }
 
+    .header-section-left-button > .fas{
+        top: 3px;
+    }
+
     .header-section-right{
         width: 100%;
+    }
+
+    .header-section-right > img {
+        height: 250px;
     }
 
     /* header section ends */

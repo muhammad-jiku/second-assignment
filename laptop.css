@@ -8,8 +8,8 @@
 }
 
 body{
-    margin: 0 auto;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -66,10 +66,11 @@ body{
 }
 
 .header-section-left-heading {
-    line-height: 20%;
+    line-height: 25px;
 }
 
 .header-section-left-heading > h1{
+    color: var(--theme);
     font-size: 38px;
     font-weight: bolder;
 }
@@ -190,8 +191,8 @@ main{
 /* collection section starts */
 
 .collection-section{
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
@@ -200,8 +201,8 @@ main{
 }
 
 .collection-section-header{
-    margin: 20px 0;
-    padding: 20px;
+    margin: 10px 0;
+    padding: 10px 5px;
     text-align: center;
 }
 
@@ -214,11 +215,10 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .collection-section-box-card{
-    margin: 20px;
+    margin: 10px;
     box-shadow: var(--shadow);
     padding: 10px;
     border: none;
@@ -267,8 +267,8 @@ main{
 .see-more-section{
     display: flex;
     justify-content: flex-end;
-    margin-left: 25px;
-    padding: 0 20px;
+    margin-left: 10px;
+    padding: 5px 10px;
     position: relative;
     right: 5%;
     transform: translateX(-5%);
@@ -295,7 +295,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px 0;
+    margin: 10px;
     font-family: 'Be Vietnam Pro', sans-serif;
     box-sizing: border-box;
 }
@@ -311,11 +311,11 @@ main{
 }
 
 .subscribe-section-form{
-    padding: 20px;
+    padding: 10px 5px;
 }
 
 .subscribe-section-form > form > input{
-    padding: 10px 50px;
+    padding: 10px 5px;
     text-align: center;
     font-size: 20px;
     border: 1px solid var(--dark);
@@ -329,7 +329,7 @@ main{
 }
 
 .subscribe-section-form-button{
-    padding: 10px 50px ;
+    padding: 10px 5px;
     text-align: center;
     font-size: 20px;
     background-color: var(--dark);
@@ -384,14 +384,14 @@ main{
 
 .footer-section-social-media > ul {
     display: flex;
-    padding: 25px;
+    padding: 10px 5px;
 }
 
 .footer-section-social-media > ul > li {
     list-style-type: none;
     margin: 0 15px;
     font-size: 25px;
-    padding: 10px;
+    padding: 10px 5px;
     background-color: rgba(8, 13, 36, 0.719) ;
     cursor: pointer;
     border-radius: 50%;
