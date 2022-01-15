@@ -21,6 +21,10 @@ body{
     align-items: center;
 }
 
+.navbar-section-menu-icon{
+    display: none;
+}
+
 .navbar-section-heading{
     padding: 10px;
 }
@@ -70,7 +74,7 @@ body{
     font-weight: 700;
 }
 
-.button{
+.header-section-left-button{
     margin-top: 20px;
     padding: 10px 20px;
     border: 1px solid var(--primary);
@@ -82,7 +86,7 @@ body{
     text-align: center;
 }
 
-.button > .fas{
+.header-section-left-button > .fas{
     position: relative;
     top: 2px;
     font-size: 20px;
@@ -96,8 +100,8 @@ body{
 .header-section-right > img {
     height: 350px;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 50%; 
+    transform: translateX(-50%); 
 }
 
 /* header section ends */
